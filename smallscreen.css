@@ -1,0 +1,219 @@
+@media only screen and (max-width: 700px) {
+
+    .nav-menu {
+        margin: 10px 20px;
+
+    }
+
+    nav ul{
+        position: absolute;
+        display: block;
+        align-items: center;
+        background-color: rgb(156, 22, 67);
+        top: 60px;
+        left: 0;
+        justify-content: center;
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.8s;
+        cursor: pointer;
+    }
+
+    .menu-toggle {
+        display: block;
+        cursor: pointer;
+    }
+
+
+    nav ul li {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+nav ul li a{
+    margin: 10px auto;
+    cursor: pointer;
+}
+nav ul li a:hover{
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px 0px 10px 0px;
+    transition: .5s;
+}
+
+    nav ul li::after {
+        display: none;
+    }
+
+    .background {
+        display: none;
+    }
+
+    .btn {
+        display: none;
+    }
+
+
+    .col-1 {
+        margin: 15% auto;
+        flex-basis: 100%;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+       
+    }
+
+
+    .title {
+        text-align: center;
+
+    }
+    .small-text p{
+        color: rgb(204, 184, 184);
+    }
+
+    .title h1 {
+        font-size: 30px;
+        font-family: sans-serif;
+        color: rgb(255, 255, 255);
+    }
+
+    .btn-1 {
+        margin: 50px auto 0px auto;
+        text-align: center;
+        justify-content: center;
+
+    }
+.btn-1 button:hover {
+    transition: .8s;
+    background-color: maroon;
+    color: whitesmoke;
+}
+
+
+    .btn-1 a {
+        text-align: center;
+    }
+
+    .flex-1 {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url(./images/sky.jpg);
+        background-position: center;
+        background-size: cover;
+        margin: auto;
+        width: 100%;
+    }
+
+    .small-text {
+        text-align: center;
+        margin: 10px auto;
+    }
+
+    .container {
+        padding: 0;
+        margin: 0px auto 40px auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .title-container {
+        width: 300px;
+        margin: 10px auto;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .title-2 h1 {
+        font-size: 24px;
+        font-weight: bold;
+        font-family: sans-serif;
+    }
+
+    .col-2 {
+        align-items: center;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .tags {
+        padding: 10px;
+    }
+
+    .image-tags img {
+        width: 320px;
+    }
+
+    .col-3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+        align-items: center;
+        margin: 10px auto;
+        padding: 0px;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .socials-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .logo2 {
+        margin-bottom: 30px;
+    }
+
+    .social-images {
+        margin-top: 10px;
+    }
+
+    .btn-footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 5px auto 20px auto;
+    }
+
+    .btn-2 {
+        margin: 0px;
+    }
+
+    .btn-footer p {
+        margin: 20px auto 5px auto;
+        text-align: center;
+        color: darkgray;
+    }
+
+    .info {
+
+        text-align: center;
+    }
+
+    .links {
+        margin-top: 20px;
+    }
+
+    .links h3 {
+
+        padding: 8px;
+    }
+
+    .links-2 h3 {
+        padding: 8px;
+    }
+}
